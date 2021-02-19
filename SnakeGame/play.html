@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Play Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <style>
+    .copyrights {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
+    .copyrights a {
+    text-decoration: none;
+    text-decoration-style: none;
+    }
+
+    </style>
+    <body>
+    <audio id="start" src="audio/StartGame.mp3" autoplay></audio>
+    <canvas id="snake" width="608" height="608" style="border: 1px solid #000;"></canvas>
+    <h1 style="display: none;" id="go">Game Over</h1>
+    <button style="display: none;" type="button" id="Trybtn" onClick="window.location.reload()">Try Again</button>
+
+
+    <script src="snake.js"></script>
+</body>
+<footer>
+    <p class="copyrights">Created by <a href="https://johnydesigns.com" target="_blank">johnydesigns.com</a></p>
+</footer>
+</html>

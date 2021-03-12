@@ -1895,6 +1895,9 @@ footer p {
 .fab.fa-docker:hover {
     color:lightskyblue;
 }
+.fab.fa-hackerrank:hover {
+    color:seagreen;  
+}
 
 .cv {
     border: 1px solid #fff;

@@ -1905,4 +1905,6 @@ footer p {
     font-size: 10px;
     background: transparent;
 }
-
+.fab.fa-hackerrank {
+    color:#fff;  
+}

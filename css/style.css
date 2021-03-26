@@ -1907,8 +1907,10 @@ footer p {
 }
 
 
-@media (min-width:768px){
-#gamebtn {
-    display: none;
-}
+@media (max-width:768px){
+
+    #gamebtn {
+        display: none;
+    }
+
 }

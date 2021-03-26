@@ -1906,3 +1906,11 @@ footer p {
     background: transparent;
 }
 
+
+@media (max-width:768px){
+
+    #gamebtn {
+        display: none;
+    }
+
+}

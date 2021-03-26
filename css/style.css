@@ -1906,15 +1906,9 @@ footer p {
     background: transparent;
 }
 
-.game {
-    border: 1px solid #fff;
-    padding: 10px;
-    font-size: 10px;
-    background: transparent;
-}
 
 @media (min-width:768px){
-.game {
+#gamebtn {
     display: none;
 }
 }

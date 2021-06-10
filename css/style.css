@@ -1852,6 +1852,10 @@ footer p {
   background: transparent;
 }
 
+.cv:hover {
+  background-color: lightblue;
+}
+
 @media (max-width: 768px) {
   #gamebtn {
     display: none;

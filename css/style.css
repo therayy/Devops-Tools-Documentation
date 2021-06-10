@@ -1845,15 +1845,26 @@ footer p {
   color: seagreen;
 }
 
-.cv {
-  border: 1px solid #fff;
+.homebtn {
+  border: 1px solid #fff !important;
   padding: 10px;
   font-size: 10px;
   background: transparent;
+  color: #fff !important;
 }
 
-.cv:hover {
-  background-color: lightblue;
+#tutbtn:hover {
+  background: lightcoral;
+  border-color: lightcoral !important;
+  color: #000;
+  transition: all ease 0.5s;
+}
+
+#cvbtn:hover {
+  background: lightsteelblue;
+  border-color: lightsteelblue !important;
+  color: #000;
+  transition: all ease 0.5s;
 }
 
 @media (max-width: 768px) {

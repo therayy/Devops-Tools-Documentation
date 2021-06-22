@@ -1856,14 +1856,21 @@ footer p {
 #tutbtn:hover {
   background: lightcoral;
   border-color: lightcoral !important;
-  color: #000;
+  color: #000 !important;
   transition: all ease 0.5s;
 }
 
 #cvbtn:hover {
   background: lightsteelblue;
   border-color: lightsteelblue !important;
-  color: #000;
+  color: #000 !important;
+  transition: all ease 0.5s;
+}
+
+#instbtn:hover {
+  background: lightgreen;
+  border-color: lightgreen !important;
+  color: #000 !important;
   transition: all ease 0.5s;
 }
 

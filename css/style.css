@@ -1868,7 +1868,7 @@ footer p {
 }
 
 #instbtn:hover {
-  background: lightgreen;
+  background: lightgreen !important;
   border-color: lightgreen !important;
   color: #000 !important;
   transition: all ease 0.5s;

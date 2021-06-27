@@ -1864,9 +1864,11 @@ footer p {
   background: lightsteelblue;
   border-color: lightsteelblue !important;
   color: #000 !important;
-  transition: all ease 0.5s;
 }
 
+#instbtn {
+  transition: all .2s ease-in-out;
+}
 #instbtn:hover {
   background: lightgreen !important;
   border-color: lightgreen !important;
@@ -1874,8 +1876,6 @@ footer p {
   transition: all ease 0.5s;
 }
 
-@media (max-width: 768px) {
-  #gamebtn {
-    display: none;
-  }
-}
+
+
+
